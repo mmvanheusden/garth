@@ -14,7 +14,7 @@ class UserProfile:
     display_name: str
     full_name: str
     user_name: str
-    profile_image_uuid: str | None
+    # profile_image_uuid: str | None
     profile_image_url_large: str | None
     profile_image_url_medium: str | None
     profile_image_url_small: str | None
@@ -22,7 +22,7 @@ class UserProfile:
     facebook_url: str | None
     twitter_url: str | None
     personal_website: str | None
-    motivation: str | None
+    # motivation: str | None
     bio: str | None
     primary_activity: str | None
     favorite_activity_types: List[str]

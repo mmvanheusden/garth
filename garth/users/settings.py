@@ -56,16 +56,16 @@ class UserData:
     intensity_minutes_calc_method: str
     moderate_intensity_minutes_hr_zone: int
     vigorous_intensity_minutes_hr_zone: int
-    hydration_measurement_unit: str
-    hydration_containers: List[Dict[str, float | None]]
-    hydration_auto_goal_enabled: bool
+    # hydration_measurement_unit: str
+    # hydration_containers: List[Dict[str, float | None]]
+    # hydration_auto_goal_enabled: bool
     firstbeat_max_stress_score: float | None
     firstbeat_cycling_lt_timestamp: int | None
     firstbeat_running_lt_timestamp: int | None
-    threshold_heart_rate_auto_detected: bool
+    # threshold_heart_rate_auto_detected: bool
     ftp_auto_detected: bool | None
     training_status_paused_date: str | None
-    weather_location: WeatherLocation | None
+    # weather_location: WeatherLocation | None
     golf_distance_unit: str
     golf_elevation_unit: str | None
     golf_speed_unit: str | None
